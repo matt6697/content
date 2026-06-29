@@ -356,7 +356,7 @@ def gcenter103_alerts_get_command(client: GwClient, args: dict[str, str]) -> Com
         readable_output=tableToMarkdown("gcenter103-alerts-get", res),
         outputs_prefix="Gatewatcher.Alerts.Get",
         outputs_key_field="uuid",
-        outputs=res_keys,
+        outputs=res,
         raw_response=res,
     )
 
